@@ -1,0 +1,74 @@
+<div class="page" data-name="updaterecipe">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="navbar-bg"></div>
+            <div class="left">
+                <a href="#" class="back link icon-only">
+                    <i class="icon icon-back"></i>
+                </a>
+            </div>
+            <div class="title">Update Recipe</div>
+            <br class="text">
+        </div>
+    </div>
+    <div class="page-content">
+        <form method="POST" class="form-ajax-submit">
+            <div class="list no-hairlines-md">
+                <ul>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">Name</div>
+                            <div class="item-input-wrap">
+                                <input id="tx_nameedit" type="text" placeholder="Input Recipe Name" required />
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Categories</div>
+                            <div class="item-input-wrap">
+                                <ul id="ul_categoriessedit"></ul>
+                                <select placeholder="Select Categories" id="sel_categoriessedit"></select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">Description</div>
+                            <div class="item-input-wrap">
+                                <input id="tx_descriptionedit" type="text" placeholder="Input Description Recipe" required />
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">Ingredients</div>
+                            <div class="item-input-wrap">
+                                <textarea id="tx_ingredientsedit" placeholder="Input Ingredients Recipe" rows="4" ></textarea>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-stacked-label">Cooking Method</div>
+                            <div class="item-input-wrap">
+                                <textarea id="tx_cooking_methodedit" placeholder="Input Cooking Method" rows="4" ></textarea>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">    
+                        <div class="item-inner">
+                            <input type="button" name="btnupdaterecipe" id="btnupdaterecipe" class="button button-fill button-big" value="Update Recipe">
+                        </div>
+                    </li>    
+                </ul>
+            </div>
+        </form>
+    </div>
+
+</div>
+</div>

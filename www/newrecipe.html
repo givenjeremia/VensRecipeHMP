@@ -1,0 +1,85 @@
+<div class="page" data-name="newrecipe">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="navbar-bg"></div>
+            <div class="left">
+                <a href="/" class="link icon-only">
+                    <i class="icon icon-back"></i>
+                </a>
+            </div>
+            <div class="title">New Recipe</div>
+            <br class="text">
+        </div>
+    </div>
+    <div class="page-content">
+        <form method="POST" class="form-ajax-submit" enctype="multipart/form-data">
+            <div class="list no-hairlines-md">
+                <ul>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-floating-label">Name</div>
+                            <div class="item-input-wrap">
+                                <input id="tx_name" type="text" placeholder="Input Recipe Name" required />
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Categories</div>
+                            <div class="item-input-wrap">
+                                <ul id="ul_categories"></ul>
+                                <select placeholder="Select Categories" id="sel_categories"></select>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-floating-label">Description</div>
+                            <div class="item-input-wrap">
+                                <input id="tx_description" type="text" placeholder="Input Description Recipe" required />
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-floating-label">Ingredients</div>
+                            <div class="item-input-wrap">
+                                <textarea id="tx_ingredients" placeholder="Input Ingredients Recipe" rows="4" ></textarea>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-floating-label">Cooking Method</div>
+                            <div class="item-input-wrap">
+                                <textarea id="tx_cooking_method" placeholder="Input Cooking Method" rows="4" ></textarea>
+                                <span class="input-clear-button"></span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item-content item-input">
+                        <div class="item-inner">
+                            <div class="item-title item-label">Images</div>
+                            <div class="item-input-wrap">
+                                <div>
+                                    <img id="imageupload" src="" width="100%"/>
+                                </div>
+                                <button class="button button-fill" id="btntakepicture">Input Image</button>
+                            </div>
+                        </div>
+                    </li>  
+                    <li class="item-content item-input">    
+                        <div class="item-inner">
+                            <input type="button" name="btnadd" id="btnadd" class="button button-fill button-big" value="Add Recipe">
+                        </div>
+                    </li>    
+                </ul>
+            </div>
+        </form>
+    </div>
+
+</div>
+</div>

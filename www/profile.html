@@ -1,0 +1,92 @@
+<div class="page" data-name="profile">
+    <div class="navbar">
+        <div class="navbar-bg"></div>
+        <div class="navbar-inner">
+            <div class="left">
+                <a href="#" data-panel=".panel-left" class="panel-open">
+                    <i class="f7-icons">bars</i>
+                </a>
+            </div>
+            <div class="title">Vens Recipe</div>
+            <div class="subnavbar bg-color-blue">
+                <div class="subnavbar-inner">
+                    <div class="title" style="text-align: center; width:100%">Profile</div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="page-content">
+            <form method="POST" class="form-ajax-submit" enctype="multipart/form-data">
+                <div class="list no-hairlines-md padding margin">
+                    <ul>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-stacked-label">username</div>
+                                <div class="item-input-wrap">
+                                    <input id="tx_username" type="text" placeholder="Username" disabled/>
+                                    <span class="input-clear-button"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-label">Password</div>
+                                <div class="item-input">
+                                    <input type="password" name="tx_password" id="tx_password" placeholder="Your password" disabled>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-stacked-label">Name</div>
+                                <div class="item-input-wrap">
+                                    <input id="tx_nameprofile" type="text" placeholder="Name" required disabled/>
+                                    <span class="input-clear-button"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <div class="item-title item-stacked-label">Date Birth</div>
+                                <div class="item-input-wrap">
+                                    <input id="tx_datebirth" type="text" placeholder="Date Birth" required
+                                        readonly  disabled/>
+                                    <span class="input-clear-button"></span>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <input type="button" name="btnupdate" id="btnupdate"
+                                    class="button button-fill button-big bg-color-lightblue" value="UPDATE">
+                            </div>
+                        </li>
+                        <li class="item-content item-input">
+                            <div class="item-inner">
+                                <input type="button" name="btnlogout" id="btnlogout"
+                                    class="button button-fill button-big bg-color-lightblue" value="LOGOUT">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+        </div>
+    !-- Bottom Toolbar -->
+    <div class="toolbar tabbar tabbar-labels toolbar-bottom custom">
+        <div class="toolbar-inner">
+            <a href="/" class="tab-link">
+                <i class="icon f7-icons">house_fill</i>
+                <span class="tabbar-label">Home</span>
+            </a>
+            <a href="/recipe/" class="tab-link">
+                <i class="icon f7-icons">search_fill</i>
+                <span class="tabbar-label">Search Recipe</span>
+            </a>
+            <a href="/profile/" class="tab-link tab-link-active">
+                <i class="icon f7-icons">person_fill</i>
+                <span class="tabbar-label">Profile</span>
+            </a>
+        </div>
+    </div>
+</div>
+</div>
